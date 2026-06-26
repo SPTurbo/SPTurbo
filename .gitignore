@@ -1,0 +1,15 @@
+# 编译产物
+out/
+*.class
+
+# IDE配置（如果你用IDEA）
+.idea/
+*.iml
+.vscode/
+
+# 日志文件
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
