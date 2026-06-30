@@ -25,7 +25,7 @@ jobs:
 
       - name: Sync from upstream
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.A_TOKEN }}
         run: |
           git remote add upstream https://github.com/LinMouGroup/SPTurbo.git
           git fetch upstream --prune
